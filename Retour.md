@@ -25,3 +25,7 @@ Retour sur l'exercice après 1h30 passé :
 - et idéalement découpé encore un peu plus
 
     Ce qui n'a pas été fait par manque de temps, mais ça permet d'avoir un exemple concret de ce que j'imagine en refactorisant en suivant les contraintes de l'énoncé.
+    
+ - j'ai ajouté des commentaires partout avec les typages ça permet aux IDEs qui le supportent de faire une bonne autocomplétion
+ 
+ - j'ai bien entendu vérifié que les tests unitaires fonctionnaient et ajoutés quelques modifications pour tester mes ajouts
