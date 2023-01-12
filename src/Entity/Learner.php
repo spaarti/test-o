@@ -11,4 +11,12 @@ class Learner
         public readonly string $email,
     ) {
     }
+
+   /**
+    * @return string
+    */
+   public function getFormatedFirstname(): string
+   {
+       return ucfirst(strtolower($this->firstname));
+   }
 }

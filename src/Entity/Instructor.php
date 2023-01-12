@@ -10,4 +10,12 @@ class Instructor
         public readonly string $lastname,
     ) {
     }
+
+   /**
+    * @return string
+    */
+   public function getLink(): string
+   {
+       return 'instructors/' . $this->id .'-'.urlencode($this->firstname);
+   }
 }

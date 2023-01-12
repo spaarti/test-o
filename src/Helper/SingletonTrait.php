@@ -6,9 +6,9 @@ trait SingletonTrait
 {
     protected static $instance = null;
 
-   /**
-    * @return SingletonTrait
-    */
+    /**
+     * @return SingletonTrait
+     */
     public static function getInstance(): self
     {
         if (!self::$instance) {
