@@ -2,7 +2,6 @@
 
 namespace App\Entity;
 
-
 class Instructor
 {
     public function __construct(

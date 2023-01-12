@@ -6,10 +6,13 @@ trait SingletonTrait
 {
     protected static $instance = null;
 
-    public static function getInstance(): static
+   /**
+    * @return SingletonTrait
+    */
+    public static function getInstance(): self
     {
         if (!self::$instance) {
-            self::$instance = new static();
+            self::$instance = new self();
         }
 
         return self::$instance;
