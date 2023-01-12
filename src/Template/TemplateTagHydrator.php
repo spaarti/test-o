@@ -23,7 +23,7 @@ interface TemplateTagHydrator
 
     /**
      * @param array<string, mixed> $data
-     * @return array<string, mixed>
+     * @return array<string, string> // Key is a tag string, value is the replacement
      */
     public function getTagsData(array $data): array;
 }

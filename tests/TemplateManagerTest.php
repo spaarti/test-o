@@ -50,7 +50,9 @@ L'équipe Ornikar
         $message = $templateManager->getTemplateComputed(
             $template,
             [
-                'lesson' => $lesson
+                'lesson' => $lesson,
+//                'user' => new Learner(1, "toto", 'titi', 'email'),
+//                'instructor' => new Instructor(1, "jean", "rock")
             ]
         );
 
